@@ -87,11 +87,15 @@ Make sure the following tools are installed on your system:
 
 ---
 
-### 🧪 Test the Setup
+## 🚧 Creating a New Next.js Project
 
-To ensure everything is installed properly:
-```bash
-node -v       # Should output Node.js version
-npm -v        # Should output npm version
-git --version # Should output Git version
+Once your development environment is ready, the next step is to create a new Next.js application. This can be done easily using the official `create-next-app` tool provided by the Next.js team.
+
+---
+
+### ▶️ Step-by-Step Instructions
+
+1. **Open your terminal** and navigate to the folder where you want to create the project:
+   ```bash
+   cd path/to/your/projects/folder
 

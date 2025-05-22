@@ -99,3 +99,51 @@ Once your development environment is ready, the next step is to create a new Nex
    ```bash
    cd path/to/your/projects/folder
 
+## 🚧 Creating a New Next.js Project
+
+Run the following command to create a new Next.js app:
+
+```bash
+npx create-next-app@latest my-nextjs-app
+Replace my-nextjs-app with your preferred project name.
+
+This command will:
+
+Set up the folder structure
+
+Install all required dependencies
+
+Configure basic project files
+
+Optional Setup Prompts
+During setup, you’ll be prompted to choose some options:
+
+TypeScript support? → Yes / No
+
+ESLint? → Yes / No
+
+Tailwind CSS? → Yes / No
+
+src/ directory? → Yes / No
+
+App Router (recommended)? → Yes / No
+
+Import alias? (e.g., @/components) → Yes / No
+
+Answer based on your project needs.
+
+📁 Project Structure Example
+After setup, your folder will look like this:
+
+lua
+Copy
+Edit
+my-nextjs-app/
+├── node_modules/
+├── public/
+├── styles/
+├── pages/ or app/
+├── .gitignore
+├── next.config.js
+├── package.json
+└── README.md
